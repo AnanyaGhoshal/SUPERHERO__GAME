@@ -19,10 +19,13 @@ class Monster{
 
         var pos = this.body.position;
 
+        push();
+        translate(pos.x,pos.y);
         fill(255);
         ellipseMode(RADIUS);
         imageMode(CENTER);
-        image(this.image,pos.x,pos.y,this.radius*5,this.radius*2.5);
+        image(this.image,0,0,this.radius*5,this.radius*2.5);
+        pop();
        //circle(pos.x,pos.y,this.radius);
 
 

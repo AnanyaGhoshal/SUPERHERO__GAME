@@ -28,18 +28,19 @@ function setup() {
   monster = new Monster(1100,550);
 
   for(var i=0; i<7; i++){
-
-    block.push(new Block(650,100));
-
+    block.push(new Block(650,281));
   }
+
   for(var i=0; i<6; i++){
-    block.push(new Block(720,100));
+    block.push(new Block(720,281));
   }
+
   for(var i=0; i<8; i++){
-    block.push(new Block(790,100));
+    block.push(new Block(790,281));
   }
+  
   for(var i=0; i<5; i++){
-    block.push(new Block(860,100));
+    block.push(new Block(860,281));
   }
 
 }
